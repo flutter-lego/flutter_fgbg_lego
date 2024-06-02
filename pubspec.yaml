@@ -3,7 +3,7 @@ description: "lego that notify when the app goes into the background or comes to
 #publish_to: 'none'
 repository: https://github.com/flutter-lego/flutter_fgbg_lego
 
-version: 1.0.0
+version: 1.0.2
 
 environment:
   sdk: '>=3.3.1 <4.0.0'
