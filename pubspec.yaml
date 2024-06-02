@@ -1,0 +1,39 @@
+name: flutter_fgbg_lego
+description: "lego that notify when the app goes into the background or comes to the foreground"
+#publish_to: 'none'
+#repository: https://github.com/melodysdreamj/lego
+
+version: 1.0.0
+
+environment:
+  sdk: '>=3.3.1 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_svg: #@add
+  gap: #@add
+  june_flow_util:
+  styled_widget: #@add
+  modal_bottom_sheet: #@add
+  keyboard_attachable: #@add
+  flutter_zoom_drawer: #@add
+  flutter_screenutil:
+  bot_toast:
+  flutter_fgbg:  #@add
+  easy_event_bus:  #@add
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints:
+  screenutil_lego: #@add
+  bot_toast_lego: #@add
+
+flutter:
+  assets:
+    - assets/lego/flutter_fgbg_lego/
+  uses-material-design: true
+
+topics:
+  - lego
