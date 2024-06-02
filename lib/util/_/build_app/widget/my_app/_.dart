@@ -2,10 +2,11 @@ import 'package:flutter/material.dart';
 import '../../../../../main.dart';
 import '../../function/before_material_app/_.dart';
 import '../material_app/_.dart';
-
+import 'flutter_fgbg_lego/_.dart';
 
 Widget Function() buildMyApp(BuildContext context) {
   Widget Function() materialAppBuilder = MaterialAppBuilder(context);
+  materialAppBuilder = coverFlutterFgbgLego(materialAppBuilder);
 
 
   return () => materialAppBuilder();

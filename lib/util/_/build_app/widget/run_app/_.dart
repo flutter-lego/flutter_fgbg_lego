@@ -5,10 +5,12 @@ import '../my_app/_.dart';
 import 'screenutil_lego/_.dart';
 
 Future<void> buildApp({Widget? home}) async {
-  if (home != null) MyAppHome = home;
+  MyAppHome = home;
   await readyBeforeRunApp();
   Widget childWidget = MyApp();
   childWidget = coverScreenutilLego(childWidget);
 
   return runApp(childWidget);
 }
+
+
